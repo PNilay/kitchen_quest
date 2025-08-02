@@ -15,8 +15,12 @@ function Navbar() {
         </ul>
       </div>
       <div className="flex justify-end items-center grow">
-        <button className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 px-5 py-2">Sign In</button>
-        <button className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 ml-4 px-5 py-2">Sign Up</button>
+        <div className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 px-5 py-2">
+          <a href="/Account">Sign In</a>
+        </div>
+        <div className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 ml-4 px-5 py-2">
+          <a href="/Account">Sign Up</a>
+        </div>
       </div>
     </nav>
   );

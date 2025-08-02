@@ -1,5 +1,5 @@
 "use client";
-import {AnimatePresence, motion, scale, useAnimationControls } from "framer-motion";
+import { AnimatePresence, motion, scale, useAnimationControls } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 function Login_Signup() {
@@ -23,7 +23,6 @@ function Login_Signup() {
   useEffect(() => {
     console.log("Is Mobile Use Effect" + isMobile);
   }, [isMobile]);
-
 
   let [isLogin, setIsLogin] = useState(true);
 

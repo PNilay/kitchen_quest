@@ -16,10 +16,10 @@ function Navbar() {
       </div>
       <div className="flex justify-end items-center grow">
         <div className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 px-5 py-2">
-          <a href="/account">Sign In</a>
+          <a href="/account/signin">Sign In</a>
         </div>
         <div className="text-white bg-green-500 rounded-md hover:bg-green-400 sm:w-auto sm:mb-0 ml-4 px-5 py-2">
-          <a href="/account">Sign Up</a>
+          <a href="account/register">Sign Up</a>
         </div>
       </div>
     </nav>
